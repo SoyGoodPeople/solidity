@@ -92,6 +92,7 @@ Language Features:
  * Parser: Accept the ``address payable`` type during parsing.
 
 Compiler Features:
+ * Build System: LLL is not built anymore by default. Must configure it with CMake as `-DLLL=ON`.
  * Build System: Support for Mojave version of macOS added.
  * Code Generator: ``CREATE2`` instruction has been updated to match EIP1014 (aka "Skinny CREATE2"). It also is accepted as part of Constantinople.
  * Code Generator: ``EXTCODEHASH`` instruction has been added based on EIP1052.
